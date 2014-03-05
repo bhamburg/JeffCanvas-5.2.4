@@ -1,0 +1,46 @@
+/*
+WOO CUSTOM STYLESHEET FOR IE BROWSERS
+---------------------
+*/
+
+/* Fullscreen Media Queries Unmediaqueried */
+
+	#wrapper {
+		border-left: 1px solid #DBDBDB;
+		border-right: 1px solid #DBDBDB;
+		border-radius: 0px;
+		-moz-border-radius: 0px;
+		-webkit-border-radius: 0px;
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+		-moz-box-shadow: 0px 0px 5px rgba(0,0,0,.3);
+		-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+	}
+	body {padding: 0 1.618em;}
+
+
+
+	#navigation {margin: 10px 10px 20px 10px}
+
+
+
+	#app-form {
+		position: absolute;
+		top: 0;
+		right: 20px;
+		z-index: 10000;
+		-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+		-moz-box-shadow:    1px 1px 5px rgba(0, 0, 0, 0.5);
+		box-shadow:         1px 1px 5px rgba(0, 0, 0, 0.5);
+	}
+
+	#loopedSlider {margin: 0 auto 30px;}
+	#loopedSlider .content {opacity: .8 !important; padding: 0; width: 100%}
+	#loopedSlider .content p, #loopedSlider .content h2 {background: none !important; max-width: 100% !important;}
+	#loopedSlider .content {position: absolute; left: 0px; bottom: 0px; top: auto !important; background: none;}
+	#loopedSlider .content h2 {padding: 10px 20px 0 20px;}
+
+	.post-content {float: right; width: 460px}
+
+     #navigation {width: 98%}
+
+     .post-cat-widget img {display: none;}
